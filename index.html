@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jucinara Melo | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Jucinara<span>Melo</span></h1>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="projetos.html" target="_blank">Projetos</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h2>
+            <span class="texto-branco">Olá, eu sou </span>
+            <span id="texto-digitando" class="texto-azul"></span>
+          </h2>
+
+          <p class="descricao">
+            Desenvolvedora em formação, estudante de Engenharia de Computação, com experiência prática
+            em desenvolvimento web, APIs, suporte técnico e projetos acadêmicos. Atuo com tecnologias
+            como Angular, JavaScript, FastAPI, HTML, CSS e Git, buscando sempre criar soluções úteis,
+            funcionais e bem estruturadas.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="projetos.html" target="_blank" class="btn primary">Ver projetos</a>
+            <a href="#contato" class="btn secondary">Entrar em contato</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="foto/foto-jucinara.jpg" alt="Foto de Jucinara Melo" class="foto-perfil" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <div class="card">
+          <p>
+            Sou estudante de Engenharia de Computação e tenho interesse em tecnologia,
+            desenvolvimento de software e soluções que impactem positivamente a vida das pessoas.
+            Tenho experiência com projetos acadêmicos e práticos nas áreas de desenvolvimento web,
+            lógica de programação e tutoria universitária.
+          </p>
+          <p>
+            Busco constantemente evoluir tecnicamente, aprender novas ferramentas e aplicar meus
+            conhecimentos em projetos reais, construindo uma trajetória sólida na área de tecnologia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencias" class="section">
+      <div class="container">
+        <h2 class="section-title">Experiências</h2>
+
+        <div class="grid cards-grid">
+          <article class="card destaque-hover">
+            <h3>Desenvolvedora Web - Simples Meios de Pagamentos</h3>
+            <p>
+              Acompanhamento no desenvolvimento de programas e software, com suporte à equipe
+              de desenvolvimento interno e contribuição na implementação e manutenção de soluções web.
+            </p>
+          </article>
+
+          <article class="card destaque-hover">
+            <h3>Bolsista de Apoio à Pesquisa - NPAD</h3>
+            <p>
+              Suporte técnico a usuários, automação de processos com scripts, acompanhamento de
+              experimentos, organização de materiais técnicos e apoio em desenvolvimento web.
+            </p>
+          </article>
+
+          <article class="card destaque-hover">
+            <h3>Tutora - UFRN</h3>
+            <p>
+              Orientação de alunos ingressantes em disciplinas como Matemática Básica e Lógica de
+              Programação, promovendo aprendizado, acolhimento e integração acadêmica.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Angular</span>
+          <span>Bootstrap</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Python</span>
+          <span>FastAPI</span>
+          <span>C</span>
+          <span>Go</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="section">
+      <div class="container">
+        <h2 class="section-title">Diferenciais</h2>
+        <div class="card">
+          <ul class="lista-diferenciais">
+            <li>Experiência com desenvolvimento front-end e back-end</li>
+            <li>Vivência com APIs REST e integração entre sistemas</li>
+            <li>Participação em projetos acadêmicos e profissionais</li>
+            <li>Experiência com tutoria, suporte técnico e trabalho em equipe</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <div class="card contato-card">
+          <p>Gostou do meu portfólio? Vamos conversar.</p>
+
+          <div class="contato-links">
+            <a href="https://mail.google.com/mail/?view=cm&to=jucinaramelo10@gmail.com" target="_blank">E-mail</a>
+            <a href="https://github.com/jucinaramelo" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/jucinara-melo-eng-computer" target="_blank">LinkedIn</a>
+          </div>
+
+          <p id="mensagem-dinamica" class="mensagem-dinamica"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Jucinara Melo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
